@@ -1,0 +1,27 @@
+[23-Apr-2019 11:06:34 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'App\S\ExamplePage' not found in C:\OpenServer\domains\solid.loc\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\OpenServer\domains\solid.loc\index.php on line 9
+[23-Apr-2019 11:08:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'App\S\ExamplePage' not found in C:\OpenServer\domains\solid.loc\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\OpenServer\domains\solid.loc\index.php on line 9
+[23-Apr-2019 11:08:04 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'App\S\ExamplePage' not found in C:\OpenServer\domains\solid.loc\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\OpenServer\domains\solid.loc\index.php on line 9
+[23-Apr-2019 11:08:05 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'App\S\ExamplePage' not found in C:\OpenServer\domains\solid.loc\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\OpenServer\domains\solid.loc\index.php on line 9
+[23-Apr-2019 11:37:27 Europe/Moscow] PHP Parse error:  syntax error, unexpected end of file in C:\OpenServer\domains\solid.loc\index.php on line 19
+[24-Apr-2019 14:26:17 Europe/Moscow] PHP Warning:  file_put_contents(report-&lt;p&gt;User&lt;/p&gt;-&lt;p&gt;Author&lt;/p&gt;.txt): failed to open stream: Invalid argument in C:\OpenServer\domains\solid.loc\src\Classes\S\FileStorage.php on line 29
+[24-Apr-2019 14:26:17 Europe/Moscow] PHP Stack trace:
+[24-Apr-2019 14:26:17 Europe/Moscow] PHP   1. {main}() C:\OpenServer\domains\solid.loc\index.php:0
+[24-Apr-2019 14:26:17 Europe/Moscow] PHP   2. App\S\FileStorage->save() C:\OpenServer\domains\solid.loc\index.php:22
+[24-Apr-2019 14:26:17 Europe/Moscow] PHP   3. file_put_contents() C:\OpenServer\domains\solid.loc\src\Classes\S\FileStorage.php:29
+[24-Apr-2019 14:26:42 Europe/Moscow] PHP Warning:  file_put_contents(report-&lt;p&gt;User&lt;/p&gt;-&lt;p&gt;Author&lt;/p&gt;.txt): failed to open stream: Invalid argument in C:\OpenServer\domains\solid.loc\src\Classes\S\FileStorage.php on line 29
+[24-Apr-2019 14:26:42 Europe/Moscow] PHP Stack trace:
+[24-Apr-2019 14:26:42 Europe/Moscow] PHP   1. {main}() C:\OpenServer\domains\solid.loc\index.php:0
+[24-Apr-2019 14:26:42 Europe/Moscow] PHP   2. App\S\FileStorage->save() C:\OpenServer\domains\solid.loc\index.php:22
+[24-Apr-2019 14:26:42 Europe/Moscow] PHP   3. file_put_contents() C:\OpenServer\domains\solid.loc\src\Classes\S\FileStorage.php:29
