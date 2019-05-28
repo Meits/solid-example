@@ -51,9 +51,12 @@ $masterLayout->addViews(array(
 echo $masterLayout->render();*/
 
 
-$layoutBuilder = new LayoutBuilder; // add some views to the layout builder
+/*$layoutBuilder = new LayoutBuilder; // add some views to the layout builder
 $layoutBuilder->attachViews(array(
     new PartialView,
     new CompositeView
 )); // generate the layouts with the attached views
-$layoutBuilder->build();
+$layoutBuilder->build();*/
+
+$user = new \App\L\Example\UserDb();
+echo $user->getUser()->firstName;
