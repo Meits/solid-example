@@ -58,5 +58,11 @@ $layoutBuilder->attachViews(array(
 )); // generate the layouts with the attached views
 $layoutBuilder->build();*/
 
-$user = new \App\L\Example\UserDb();
-echo $user->getUser()->firstName;
+//$user = new \App\L\Example\UserDb();
+//echo $user->getUser()->firstName;
+
+
+$report = new \App\D\Report(new \App\D\View());
+$repository = new \App\D\ReportRepository($report, new \App\D\FIleSave('fileD.txt'));
+//$repository = new \App\O\ReportRepository($report, new \App\O\DataBaseSave("localhost",'root','','solid'));
+$repository->save();
