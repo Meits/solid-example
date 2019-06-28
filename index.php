@@ -58,6 +58,10 @@ $layoutBuilder->attachViews(array(
 )); // generate the layouts with the attached views
 $layoutBuilder->build();*/
 
+/*$user = new \App\L\Example\UserDb();
+echo $user->getUser()->firstName;*/
+
+///dependency injection
 //$user = new \App\L\Example\UserDb();
 //echo $user->getUser()->firstName;
 
